@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<launch>
+
+    <node pkg ="rviz2" exec="rviz2" name="rviz2"/>
+
+    <include file="$(find-pkg-share robp_phidgets_motors)/launch/motors_launch.py"/>
+    <include file="$(find-pkg-share robp_phidgets_encoders)/launch/encoders_launch.py"/>
+    <include file="$(find-pkg-share robp_phidgets_spatial)/launch/spatial_launch.py"/>
+    <include file="$(find-pkg-share robp_phidgets_temperature)/launch/temperature_launch.py"/>
+    <include file="$(find-pkg-share dopey)/launch/static.xml"/>
+
+    <node pkg="rplidar_ros" exec ="rplidar_node" name="rplidar_node" output="screen">
+        <param name="channel_type" value="serial"/>
+        <param name="serial_port" value="/dev/ttyUSB1"/>
+        <param name="serial_baudrate" value="115200"/>
+        <param name="frame_id" value="laser"/>
+        <param name="inverted" value="false"/>
+        <param name="angle_compensate" value="true"/>
+        <param name="scan_mode" value=""/>
+    </node>
+
+    <node pkg="odometry" exec="odometry" name ="odometry_node" />
+
+    <include file="$(find-pkg-share realsense2_camera)/launch/rs_launch.py">
+        <arg name="depth_module.profile" value="1280x720x30"/>
+        <arg name="pointcloud.enable" value="true"/>
+    </include>
+
+    <node pkg="display_markers" exec="display_markers" name="display_markers">
+        <param name="device" value=""/>
+    </node>
+
+    <node pkg="detection" exec="detection" name="detection">
+        <param name="device" value=""/>
+    </node>
+
+    <node pkg="controller" exec="keyboard_controller" name="keyboard_controller">
+        <param name="device" value=""/>
+    </node>
+   
+
+    <node name="aruco" pkg="aruco_ros" exec="marker_publisher" output='screen'>
+		<remap from="/camera_info" to="/camera/camera/color/camera_info"/>
+		<remap from="/image" to="/camera/camera/color/image_raw"/>
+		<param name="image_is_rectified" value="True"/>
+		<param name="marker_size"        value="0.05"/> 
+		<param name="reference_frame"    value=""/>   
+		<param name="camera_frame"       value="camera_color_optical_frame"/>
+	</node>
+
+    
+    <node pkg="usb_cam" name="usb_cam" exec="usb_cam_node_exe" output="screen" >
+        <param name="params-file" value="~/KTH_Robotics_Project/src/camera_config/cam_config.yaml"/>
+        <param name="video_device" value="/dev/video6" />
+        <param name="image_width" value="640" />
+        <param name="image_height" value="480" />
+        <param name="pixel_format" value="yuyv" />
+        <param name="camera_frame_id" value="usb_cam" />
+        <param name="io_method" value="mmap"/>
+    </node>
+    
+
+</launch>
