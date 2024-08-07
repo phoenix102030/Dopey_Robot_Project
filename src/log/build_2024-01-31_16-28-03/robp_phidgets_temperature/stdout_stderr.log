@@ -1,0 +1,18 @@
+[0mrobp_phidgets_temperature: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+[31mCMake Error at CMakeLists.txt:22 (find_package):
+  Could not find a package configuration file provided by "libphidget22" with
+  any of the following names:
+
+    libphidget22Config.cmake
+    libphidget22-config.cmake
+
+  Add the installation prefix of "libphidget22" to CMAKE_PREFIX_PATH or set
+  "libphidget22_DIR" to a directory containing one of the above files.  If
+  "libphidget22" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/user/dd2419_ws/src/build/robp_phidgets_temperature/CMakeFiles/CMakeOutput.log".

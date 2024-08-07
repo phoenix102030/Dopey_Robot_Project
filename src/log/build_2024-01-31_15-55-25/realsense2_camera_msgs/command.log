@@ -1,0 +1,1 @@
+Invoking command in '/home/user/dd2419_ws/src/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/user/dd2419_ws/src/realsense-ros/realsense2_camera_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/dd2419_ws/src/install/realsense2_camera_msgs

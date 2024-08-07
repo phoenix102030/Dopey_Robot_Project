@@ -1,0 +1,4 @@
+Invoking command in '/home/user/dd2419_ws/src/build/robp_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/dd2419_ws/src/build/robp_interfaces -- -j8 -l8
+Invoked command in '/home/user/dd2419_ws/src/build/robp_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/dd2419_ws/src/build/robp_interfaces -- -j8 -l8
+Invoking command in '/home/user/dd2419_ws/src/build/robp_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/user/dd2419_ws/src/build/robp_interfaces
+Invoked command in '/home/user/dd2419_ws/src/build/robp_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/user/dd2419_ws/src/build/robp_interfaces

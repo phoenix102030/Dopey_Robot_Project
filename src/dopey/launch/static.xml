@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+<!-- <node pkg ="tf2_ros" exec="static_transform_publisher" name ="map_to_odom" args="-x 0 -y 0 -z 0 -frame-id map -child-frame-id odom" output="screen"/>  -->
+
+<node pkg="tf2_ros" exec="static_transform_publisher" name="base_to_imu" args="--x 0.00107 --y 0 --z 0.02361  --frame-id base_link --child-frame-id imu_link" />
+<node pkg="tf2_ros" exec="static_transform_publisher" name="base_to_lidar" args="--x 0.01 --y 0.0950 --z 0.14456 --frame-id base_link --child-frame-id lidar"/>
+<node pkg="tf2_ros" exec="static_transform_publisher" name="base_to_arm" args="--x 0.00700 --y -0.0450 --z 0.17456  --frame-id base_link --child-frame-id arm_link" />
+<node pkg="tf2_ros" exec="static_transform_publisher" name="base_to_camera" args="--x 0.08987 --y 0.0175 --z 0.10456  --frame-id base_link --child-frame-id camera_link" />
+<node pkg="tf2_ros" exec="static_transform_publisher" name="base_to_cam2"  args="--x 0 --y 0 --z 0 --frame-id camera_link --child-frame-id camera_color_frame" output="screen"/>
+<node pkg="tf2_ros" exec="static_transform_publisher" name="base_to_cam3"  args="--x 0 --y 0 --z 0 --frame-id camera_link --child-frame-id camera_color_optical_frame" output="screen"/>
+<node pkg="tf2_ros" exec="static_transform_publisher" name="base_to_cam4"  args="--x 0 --y 0 --z 0 --frame-id camera_link --child-frame-id camera_depth_frame" output="screen"/>
+
+</launch>

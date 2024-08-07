@@ -1,0 +1,20 @@
+[0.405s] Invoking command in '/home/user/dd2419_ws/src/build/robp_phidgets_temperature': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/dd2419_ws/install/robp_interfaces:/opt/ros/humble /usr/bin/cmake /home/user/dd2419_ws/src/robp_robot/robp_phidgets/robp_phidgets_temperature -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/dd2419_ws/src/install/robp_phidgets_temperature
+[0.418s] [0mrobp_phidgets_temperature: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.419s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.562s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.578s] [31mCMake Error at CMakeLists.txt:22 (find_package):
+[0.578s]   Could not find a package configuration file provided by "libphidget22" with
+[0.578s]   any of the following names:
+[0.578s] 
+[0.579s]     libphidget22Config.cmake
+[0.579s]     libphidget22-config.cmake
+[0.579s] 
+[0.579s]   Add the installation prefix of "libphidget22" to CMAKE_PREFIX_PATH or set
+[0.579s]   "libphidget22_DIR" to a directory containing one of the above files.  If
+[0.579s]   "libphidget22" provides a separate development package or SDK, be sure it
+[0.579s]   has been installed.
+[0.579s] 
+[0.579s] [0m
+[0.579s] -- Configuring incomplete, errors occurred!
+[0.579s] See also "/home/user/dd2419_ws/src/build/robp_phidgets_temperature/CMakeFiles/CMakeOutput.log".
+[0.582s] Invoked command in '/home/user/dd2419_ws/src/build/robp_phidgets_temperature' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/dd2419_ws/install/robp_interfaces:/opt/ros/humble /usr/bin/cmake /home/user/dd2419_ws/src/robp_robot/robp_phidgets/robp_phidgets_temperature -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/dd2419_ws/src/install/robp_phidgets_temperature

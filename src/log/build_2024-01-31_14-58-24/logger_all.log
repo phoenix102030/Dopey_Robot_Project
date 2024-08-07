@@ -1,0 +1,212 @@
+[0.559s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.559s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f44d9f8ce20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f44da3d7a00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f44da3d7a00>>)
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.587s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/dd2419_ws/src'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot) by extension 'ignore_ament_install'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot) by extensions ['colcon_pkg']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot) by extension 'colcon_pkg'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot) by extensions ['colcon_meta']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot) by extension 'colcon_meta'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot) by extensions ['ros']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot) by extension 'ros'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot) by extensions ['cmake', 'python']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot) by extension 'cmake'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot) by extension 'python'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot) by extensions ['python_setup_py']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot) by extension 'python_setup_py'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot/robp_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot/robp_interfaces) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot/robp_interfaces) by extension 'ignore_ament_install'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot/robp_interfaces) by extensions ['colcon_pkg']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot/robp_interfaces) by extension 'colcon_pkg'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot/robp_interfaces) by extensions ['colcon_meta']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot/robp_interfaces) by extension 'colcon_meta'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot/robp_interfaces) by extensions ['ros']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(robp_robot/robp_interfaces) by extension 'ros'
+[0.597s] DEBUG:colcon.colcon_core.package_identification:Package 'robp_robot/robp_interfaces' with type 'ros.ament_cmake' and name 'robp_interfaces'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ignore'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ignore_ament_install'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['colcon_pkg']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'colcon_pkg'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['colcon_meta']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'colcon_meta'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['ros']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ros'
+[0.598s] DEBUG:colcon.colcon_core.package_identification:Package 'rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.598s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.598s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.598s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.598s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.598s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.651s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.668s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 308 installed packages in /opt/ros/humble
+[0.669s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'robp_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'robp_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'robp_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'robp_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'robp_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'robp_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.725s] Level 5:colcon.colcon_core.verb:set package 'robp_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'robp_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.726s] Level 5:colcon.colcon_core.verb:set package 'robp_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.726s] DEBUG:colcon.colcon_core.verb:Building package 'robp_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/dd2419_ws/src/build/robp_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/dd2419_ws/src/install/robp_interfaces', 'merge_install': False, 'path': '/home/user/dd2419_ws/src/robp_robot/robp_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.734s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.734s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/dd2419_ws/src/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/dd2419_ws/src/install/rplidar_ros', 'merge_install': False, 'path': '/home/user/dd2419_ws/src/rplidar_ros', 'symlink_install': True, 'test_result_base': None}
+[0.742s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.750s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.750s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/dd2419_ws/src/robp_robot/robp_interfaces' with build type 'ament_cmake'
+[0.751s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/dd2419_ws/src/robp_robot/robp_interfaces'
+[0.760s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.760s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.760s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.778s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/dd2419_ws/src/rplidar_ros' with build type 'ament_cmake'
+[0.778s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/dd2419_ws/src/rplidar_ros'
+[0.787s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.787s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/dd2419_ws/src/build/robp_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/dd2419_ws/src/build/robp_interfaces -- -j8 -l8
+[0.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/dd2419_ws/src/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/dd2419_ws/src/build/rplidar_ros -- -j8 -l8
+[0.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/dd2419_ws/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/dd2419_ws/src/build/rplidar_ros -- -j8 -l8
+[0.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/dd2419_ws/src/build/rplidar_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/dd2419_ws/src/build/rplidar_ros
+[0.948s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[0.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/dd2419_ws/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/dd2419_ws/src/build/rplidar_ros
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/rplidar_ros' for CMake module files
+[0.959s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/rplidar_ros' for CMake config files
+[0.959s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[0.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/dd2419_ws/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[0.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/dd2419_ws/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[0.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/dd2419_ws/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/rplidar_ros/lib'
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/rplidar_ros/bin'
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/rplidar_ros/lib/python3.10/site-packages'
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/rplidar_ros/bin'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/dd2419_ws/src/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/dd2419_ws/src/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/dd2419_ws/src/install/rplidar_ros/share/rplidar_ros/package.sh'
+[0.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/dd2419_ws/src/install/rplidar_ros/share/rplidar_ros/package.bash'
+[0.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/dd2419_ws/src/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[0.980s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/dd2419_ws/src/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[1.027s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[1.036s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/rplidar_ros' for CMake module files
+[1.037s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/rplidar_ros' for CMake config files
+[1.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[1.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/dd2419_ws/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[1.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/dd2419_ws/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[1.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/dd2419_ws/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/rplidar_ros/lib'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/rplidar_ros/bin'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/rplidar_ros/lib/python3.10/site-packages'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/rplidar_ros/bin'
+[1.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/dd2419_ws/src/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[1.056s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/dd2419_ws/src/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[1.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/dd2419_ws/src/install/rplidar_ros/share/rplidar_ros/package.sh'
+[1.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/dd2419_ws/src/install/rplidar_ros/share/rplidar_ros/package.bash'
+[1.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/dd2419_ws/src/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[1.057s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/dd2419_ws/src/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[1.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/dd2419_ws/src/build/robp_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/dd2419_ws/src/build/robp_interfaces -- -j8 -l8
+[1.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/dd2419_ws/src/build/robp_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/dd2419_ws/src/build/robp_interfaces
+[1.151s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robp_interfaces)
+[1.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/dd2419_ws/src/build/robp_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/dd2419_ws/src/build/robp_interfaces
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/robp_interfaces' for CMake module files
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/robp_interfaces' for CMake config files
+[1.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('robp_interfaces', 'cmake_prefix_path')
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/hook/cmake_prefix_path.ps1'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/hook/cmake_prefix_path.dsv'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/hook/cmake_prefix_path.sh'
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/robp_interfaces/lib'
+[1.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('robp_interfaces', 'ld_library_path_lib')
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/hook/ld_library_path_lib.ps1'
+[1.179s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/hook/ld_library_path_lib.dsv'
+[1.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/hook/ld_library_path_lib.sh'
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/robp_interfaces/bin'
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/robp_interfaces/lib/pkgconfig/robp_interfaces.pc'
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/robp_interfaces/lib/python3.10/site-packages'
+[1.180s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/robp_interfaces/bin'
+[1.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/package.ps1'
+[1.190s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/package.dsv'
+[1.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/package.sh'
+[1.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/package.bash'
+[1.191s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/package.zsh'
+[1.191s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/dd2419_ws/src/install/robp_interfaces/share/colcon-core/packages/robp_interfaces)
+[1.242s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robp_interfaces)
+[1.260s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/robp_interfaces' for CMake module files
+[1.260s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/robp_interfaces' for CMake config files
+[1.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('robp_interfaces', 'cmake_prefix_path')
+[1.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/hook/cmake_prefix_path.ps1'
+[1.269s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/hook/cmake_prefix_path.dsv'
+[1.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/hook/cmake_prefix_path.sh'
+[1.269s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/robp_interfaces/lib'
+[1.270s] Level 1:colcon.colcon_core.shell:create_environment_hook('robp_interfaces', 'ld_library_path_lib')
+[1.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/hook/ld_library_path_lib.ps1'
+[1.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/hook/ld_library_path_lib.dsv'
+[1.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/hook/ld_library_path_lib.sh'
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/robp_interfaces/bin'
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/robp_interfaces/lib/pkgconfig/robp_interfaces.pc'
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/robp_interfaces/lib/python3.10/site-packages'
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/home/user/dd2419_ws/src/install/robp_interfaces/bin'
+[1.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/package.ps1'
+[1.287s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/package.dsv'
+[1.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/package.sh'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/package.bash'
+[1.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/dd2419_ws/src/install/robp_interfaces/share/robp_interfaces/package.zsh'
+[1.288s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/dd2419_ws/src/install/robp_interfaces/share/colcon-core/packages/robp_interfaces)
+[1.288s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.288s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.288s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.288s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.301s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.301s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.301s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.308s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.317s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/dd2419_ws/src/install/local_setup.ps1'
+[1.318s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/dd2419_ws/src/install/_local_setup_util_ps1.py'
+[1.319s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/dd2419_ws/src/install/setup.ps1'
+[1.328s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/dd2419_ws/src/install/local_setup.sh'
+[1.328s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/dd2419_ws/src/install/_local_setup_util_sh.py'
+[1.329s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/dd2419_ws/src/install/setup.sh'
+[1.341s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/dd2419_ws/src/install/local_setup.bash'
+[1.342s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/dd2419_ws/src/install/setup.bash'
+[1.355s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/dd2419_ws/src/install/local_setup.zsh'
+[1.356s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/dd2419_ws/src/install/setup.zsh'

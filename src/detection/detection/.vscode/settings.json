@@ -1,0 +1,39 @@
+{
+    "python.analysis.typeCheckingMode": "off",
+    "python.autoComplete.extraPaths": [
+        "/home/rosuser/dd2419_ws/build/robp_boot_camp_launch",
+        "/home/rosuser/dd2419_ws/install/robp_boot_camp_launch/lib/python3.10/site-packages",
+        "/home/rosuser/dd2419_ws/build/odometry",
+        "/home/rosuser/dd2419_ws/install/odometry/lib/python3.10/site-packages",
+        "/home/rosuser/dd2419_ws/build/controller",
+        "/home/rosuser/dd2419_ws/install/controller/lib/python3.10/site-packages",
+        "/home/rosuser/dd2419_ws/install/robp_interfaces/local/lib/python3.10/dist-packages",
+        "/home/rosuser/dd2419_ws/install/robp_boot_camp_interfaces/local/lib/python3.10/dist-packages",
+        "/home/rosuser/dd2419_ws/build/kobuki_description",
+        "/home/rosuser/dd2419_ws/install/kobuki_description/lib/python3.10/site-packages",
+        "/home/rosuser/dd2419_ws/build/display_markers",
+        "/home/rosuser/dd2419_ws/install/display_markers/lib/python3.10/site-packages",
+        "/home/rosuser/dd2419_ws/build/detection",
+        "/home/rosuser/dd2419_ws/install/detection/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/rosuser/dd2419_ws/build/robp_boot_camp_launch",
+        "/home/rosuser/dd2419_ws/install/robp_boot_camp_launch/lib/python3.10/site-packages",
+        "/home/rosuser/dd2419_ws/build/odometry",
+        "/home/rosuser/dd2419_ws/install/odometry/lib/python3.10/site-packages",
+        "/home/rosuser/dd2419_ws/build/controller",
+        "/home/rosuser/dd2419_ws/install/controller/lib/python3.10/site-packages",
+        "/home/rosuser/dd2419_ws/install/robp_interfaces/local/lib/python3.10/dist-packages",
+        "/home/rosuser/dd2419_ws/install/robp_boot_camp_interfaces/local/lib/python3.10/dist-packages",
+        "/home/rosuser/dd2419_ws/build/kobuki_description",
+        "/home/rosuser/dd2419_ws/install/kobuki_description/lib/python3.10/site-packages",
+        "/home/rosuser/dd2419_ws/build/display_markers",
+        "/home/rosuser/dd2419_ws/install/display_markers/lib/python3.10/site-packages",
+        "/home/rosuser/dd2419_ws/build/detection",
+        "/home/rosuser/dd2419_ws/install/detection/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

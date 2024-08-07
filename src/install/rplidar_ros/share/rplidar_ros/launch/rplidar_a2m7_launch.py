@@ -1,0 +1,1 @@
+/home/user/dd2419_ws/src/rplidar_ros/launch/rplidar_a2m7_launch.py

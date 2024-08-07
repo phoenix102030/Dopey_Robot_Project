@@ -1,0 +1,36 @@
+[0.108s] Invoking command in '/home/user/dd2419_ws/src/build/robp_phidgets_motors': AMENT_PREFIX_PATH=/home/user/dd2419_ws/src/install/robp_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/dd2419_ws/src/install/robp_interfaces:/home/user/dd2419_ws/install/rplidar_ros:/home/user/dd2419_ws/install/robp_interfaces:/home/user/dd2419_ws/install/realsense2_description:/home/user/dd2419_ws/install/realsense2_camera:/home/user/dd2419_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/user/dd2419_ws/src/install/robp_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/dd2419_ws/src/install/robp_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/user/dd2419_ws/src/robp_robot/robp_phidgets/robp_phidgets_motors -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/dd2419_ws/src/install/robp_phidgets_motors
+[0.162s] -- The C compiler identification is GNU 11.4.0
+[0.203s] -- The CXX compiler identification is GNU 11.4.0
+[0.208s] -- Detecting C compiler ABI info
+[0.259s] -- Detecting C compiler ABI info - done
+[0.264s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.264s] -- Detecting C compile features
+[0.264s] -- Detecting C compile features - done
+[0.267s] -- Detecting CXX compiler ABI info
+[0.326s] -- Detecting CXX compiler ABI info - done
+[0.335s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.335s] -- Detecting CXX compile features
+[0.335s] -- Detecting CXX compile features - done
+[0.336s] [0mrobp_phidgets_motors: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.338s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.489s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.539s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.579s] [31mCMake Error at CMakeLists.txt:22 (find_package):
+[0.579s]   By not providing "Findlibphidget22.cmake" in CMAKE_MODULE_PATH this project
+[0.579s]   has asked CMake to find a package configuration file provided by
+[0.579s]   "libphidget22", but CMake did not find one.
+[0.579s] 
+[0.579s]   Could not find a package configuration file provided by "libphidget22" with
+[0.579s]   any of the following names:
+[0.579s] 
+[0.579s]     libphidget22Config.cmake
+[0.580s]     libphidget22-config.cmake
+[0.580s] 
+[0.580s]   Add the installation prefix of "libphidget22" to CMAKE_PREFIX_PATH or set
+[0.580s]   "libphidget22_DIR" to a directory containing one of the above files.  If
+[0.580s]   "libphidget22" provides a separate development package or SDK, be sure it
+[0.580s]   has been installed.
+[0.580s] 
+[0.580s] [0m
+[0.580s] -- Configuring incomplete, errors occurred!
+[0.580s] See also "/home/user/dd2419_ws/src/build/robp_phidgets_motors/CMakeFiles/CMakeOutput.log".

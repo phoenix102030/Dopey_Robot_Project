@@ -1,0 +1,4 @@
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring incomplete, errors occurred!
+See also "/home/user/dd2419_ws/src/build/robp_phidgets_temperature/CMakeFiles/CMakeOutput.log".

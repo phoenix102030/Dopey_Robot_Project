@@ -1,0 +1,37 @@
+[0.356s] Invoking command in '/home/user/dd2419_ws/src/build/robp_phidgets_temperature': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/user/dd2419_ws/src/robp_robot/robp_phidgets/robp_phidgets_temperature -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/dd2419_ws/src/install/robp_phidgets_temperature
+[0.397s] -- The C compiler identification is GNU 11.4.0
+[0.451s] -- The CXX compiler identification is GNU 11.4.0
+[0.459s] -- Detecting C compiler ABI info
+[0.517s] -- Detecting C compiler ABI info - done
+[0.524s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.524s] -- Detecting C compile features
+[0.524s] -- Detecting C compile features - done
+[0.527s] -- Detecting CXX compiler ABI info
+[0.586s] -- Detecting CXX compiler ABI info - done
+[0.592s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.592s] -- Detecting CXX compile features
+[0.592s] -- Detecting CXX compile features - done
+[0.593s] [0mrobp_phidgets_temperature: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.594s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.754s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.803s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.848s] [31mCMake Error at CMakeLists.txt:22 (find_package):
+[0.848s]   By not providing "Findlibphidget22.cmake" in CMAKE_MODULE_PATH this project
+[0.848s]   has asked CMake to find a package configuration file provided by
+[0.849s]   "libphidget22", but CMake did not find one.
+[0.849s] 
+[0.849s]   Could not find a package configuration file provided by "libphidget22" with
+[0.849s]   any of the following names:
+[0.849s] 
+[0.850s]     libphidget22Config.cmake
+[0.850s]     libphidget22-config.cmake
+[0.850s] 
+[0.851s]   Add the installation prefix of "libphidget22" to CMAKE_PREFIX_PATH or set
+[0.851s]   "libphidget22_DIR" to a directory containing one of the above files.  If
+[0.851s]   "libphidget22" provides a separate development package or SDK, be sure it
+[0.852s]   has been installed.
+[0.852s] 
+[0.852s] [0m
+[0.853s] -- Configuring incomplete, errors occurred!
+[0.853s] See also "/home/user/dd2419_ws/src/build/robp_phidgets_temperature/CMakeFiles/CMakeOutput.log".
+[0.930s] Invoked command in '/home/user/dd2419_ws/src/build/robp_phidgets_temperature' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/user/dd2419_ws/src/robp_robot/robp_phidgets/robp_phidgets_temperature -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/dd2419_ws/src/install/robp_phidgets_temperature

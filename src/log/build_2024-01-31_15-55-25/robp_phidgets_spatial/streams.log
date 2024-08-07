@@ -1,0 +1,37 @@
+[0.061s] Invoking command in '/home/user/dd2419_ws/src/build/robp_phidgets_spatial': AMENT_PREFIX_PATH=/home/user/dd2419_ws/src/install/robp_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/user/dd2419_ws/src/install/robp_interfaces:/home/user/dd2419_ws/install/rplidar_ros:/home/user/dd2419_ws/install/robp_interfaces:/home/user/dd2419_ws/install/realsense2_description:/home/user/dd2419_ws/install/realsense2_camera:/home/user/dd2419_ws/install/realsense2_camera_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/user/dd2419_ws/src/install/robp_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/dd2419_ws/src/install/robp_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/user/dd2419_ws/src/robp_robot/robp_phidgets/robp_phidgets_spatial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/dd2419_ws/src/install/robp_phidgets_spatial
+[0.105s] -- The C compiler identification is GNU 11.4.0
+[0.154s] -- The CXX compiler identification is GNU 11.4.0
+[0.159s] -- Detecting C compiler ABI info
+[0.211s] -- Detecting C compiler ABI info - done
+[0.218s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.218s] -- Detecting C compile features
+[0.218s] -- Detecting C compile features - done
+[0.221s] -- Detecting CXX compiler ABI info
+[0.279s] -- Detecting CXX compiler ABI info - done
+[0.289s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.290s] -- Detecting CXX compile features
+[0.290s] -- Detecting CXX compile features - done
+[0.291s] [0mrobp_phidgets_spatial: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.293s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.435s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.485s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.508s] -- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)
+[0.517s] -- Configuring incomplete, errors occurred!
+[0.517s] See also "/home/user/dd2419_ws/src/build/robp_phidgets_spatial/CMakeFiles/CMakeOutput.log".
+[0.517s] [31mCMake Error at CMakeLists.txt:23 (find_package):
+[0.517s]   By not providing "Findlibphidget22.cmake" in CMAKE_MODULE_PATH this project
+[0.517s]   has asked CMake to find a package configuration file provided by
+[0.517s]   "libphidget22", but CMake did not find one.
+[0.517s] 
+[0.517s]   Could not find a package configuration file provided by "libphidget22" with
+[0.517s]   any of the following names:
+[0.517s] 
+[0.517s]     libphidget22Config.cmake
+[0.518s]     libphidget22-config.cmake
+[0.518s] 
+[0.518s]   Add the installation prefix of "libphidget22" to CMAKE_PREFIX_PATH or set
+[0.518s]   "libphidget22_DIR" to a directory containing one of the above files.  If
+[0.518s]   "libphidget22" provides a separate development package or SDK, be sure it
+[0.518s]   has been installed.
+[0.518s] 
+[0.518s] [0m
